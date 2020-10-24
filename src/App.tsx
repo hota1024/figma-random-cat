@@ -1,7 +1,5 @@
-import * as React from 'react';
+import * as React from 'react'
 
-export const App = () => {
-    return (
-        <div>Hello, Figma Plugin with React</div>
-    );
-};
+export const App = (): React.ReactElement => {
+  return <div>Hello, Figma Plugin with React</div>
+}
